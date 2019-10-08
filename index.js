@@ -1,3 +1,4 @@
 document.querySelector('#main').remove();
-document.createElement('h1#victory')
+let header = document.createElement('h1#victory');
+document.body.appendChild(header);
 let newHeader = document.querySelector('h1#victory');
